@@ -2,7 +2,9 @@
   "name": "nx-inspector",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev": "nx run-many --target=dev"
+  },
   "private": true,
   "dependencies": {},
   "devDependencies": {
@@ -10,6 +12,7 @@
     "prettier": "^2.6.2"
   },
   "workspaces": [
+    "apps/*",
     "packages/*"
   ]
 }

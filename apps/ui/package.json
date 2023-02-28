@@ -1,0 +1,37 @@
+{
+  "name": "ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "storybook dev -p 6006 --no-open",
+    "dev:vite": "vite",
+    "preview:vite": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "build": "vite build",
+    "build:storybook": "storybook build"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.0-beta.55",
+    "@storybook/addon-interactions": "^7.0.0-beta.55",
+    "@storybook/addon-links": "^7.0.0-beta.55",
+    "@storybook/blocks": "^7.0.0-alpha.8",
+    "@storybook/svelte": "^7.0.0-beta.55",
+    "@storybook/svelte-vite": "^7.0.0-beta.55",
+    "@storybook/testing-library": "^0.0.14-next.1",
+    "@sveltejs/vite-plugin-svelte": "^2.0.2",
+    "@tsconfig/svelte": "^3.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.0-beta.55",
+    "svelte": "^3.55.1",
+    "svelte-check": "^2.10.3",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  },
+  "peerDependencies": {},
+  "files": [
+    "src/**/*"
+  ]
+}
